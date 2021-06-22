@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.btn-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.btn {
+  height: 60px;
+  width: 16.7%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+#section-1-btn {
+  background-color: rgb(61, 199, 199);
+}
+
+#section-2-btn {
+  background-color: rgb(206, 224, 139);
+}
+
+#section-3-btn {
+  background-color: rgb(173, 167, 226);
+}
+
+#section-4-btn {
+  background-color: rgb(137, 206, 180);
+}
+
+#section-5-btn {
+  background-color: rgb(226, 167, 226);
+}
+
+#section-6-btn {
+  background-color: rgb(236, 79, 87);
+}
+
+.section {
+  height: 700px;
+  width: 100%;
+  font-size: 150px;
+  color: white;
+  font-family: helvetica;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 250px;
+}
+
+#section-1 {
+  background-color: rgb(61, 199, 199);
+  color: rgb(76, 134, 138);
+}
+
+#section-2 {
+  background-color: rgb(206, 224, 139);
+  color: rgb(154, 161, 90);
+}
+
+#section-3 {
+  background-color: rgb(173, 167, 226);
+  color: rgb(114, 97, 143);
+}
+
+#section-4 {
+  background-color: rgb(137, 206, 180);
+  color: rgb(61, 126, 105);
+}
+
+#section-5 {
+  background-color: rgb(226, 167, 226);
+  color: rgb(153, 80, 149);
+}
+
+#section-6 {
+  background-color: rgb(236, 79, 87);
+  color: darkred;
+}
